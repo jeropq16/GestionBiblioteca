@@ -1,0 +1,24 @@
+@model IEnumerable<BiblioAwoo.Models.Prestamo>
+<h2>Historial de préstamos de @ViewBag.Usuario.Nombre</h2>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Libro</th>
+        <th>Fecha préstamo</th>
+        <th>Fecha devolución</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var p in Model)
+    {
+        <tr>
+            <td>@p.Libro.Titulo</td>
+            <td>@p.FechaPrestamo.ToShortDateString()</td>
+            <td>@p.FechaDevolucion.ToShortDateString()</td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<a href="/Prestamo/Index" class="btn btn-secondary">Volver</a>

@@ -11,7 +11,7 @@ Este sistema permite registrar usuarios, administrar libros, gestionar préstamo
 
 El objetivo principal de BiblioAwoo es digitalizar el proceso de préstamo de libros en bibliotecas públicas, garantizando:
 
-- Un control preciso sobre qué usuario tiene qué libro y hasta cuándo.
+- Un control preciso sobre qué usuario tiene qué libro y hasta cuándo
 - La imposibilidad de prestar libros sin ejemplares disponibles.
 - La trazabilidad completa del historial de préstamos por usuario y por libro.
 - La validación automática de datos para evitar duplicados y errores comunes.
